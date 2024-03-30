@@ -15,7 +15,10 @@ the target website. You must make your program generate a QR code that takes som
 PUT YOUR QR CODE IMAGE
 
 2.  Add an image of viewing the log of successfully creating the QR code below.
- PUT YOUR LOG IMAGE HERE
+```
+$ docker run -v .:/app qrprog
+2024-03-30 04:45:56,323 - INFO - QR code successfully saved to /app/qr_codes/QRCode_20240330044556.png
+```
 ## Lesson Video
 
 1.  [Scaling and Backend Software Engineering](https://youtu.be/v3LxCmYQVS4)
